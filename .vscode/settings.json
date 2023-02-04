@@ -1,0 +1,34 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "prod-sql-cfieducation.database.windows.net",
+            "port": 1433,
+            "askForPassword": true,
+            "driver": "MSSQL",
+            "database": " AdventureWorksDW",
+            "username": "BI_User",
+            "name": "SQL DEMO"
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "prod-sql-cfieducation.database.windows.net",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "SQL DEMO 2",
+            "password": "CFI123456789!",
+            "username": "BI_User",
+            "database": "AdventureWorksDW"
+        }
+    ]
+}
